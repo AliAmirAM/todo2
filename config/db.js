@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const connection = mongoose
-  .createConnection("mongodb://127.0.0.1:27017/newToDo")
+  .createConnection("mongodb+srv://aliamir70801:HKIRgDbUAcHEo85W@cluster0.robezgc.mongodb.net/")
   .on("open", () => {
     console.log("Mongoose connection");
   })
